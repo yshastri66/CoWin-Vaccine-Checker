@@ -45,4 +45,4 @@ python3 cowin_main.py
 
 #### Feel free to contact me incase on any quaries :-
 <h4> Yashodhara Shastri G <br>
- yashodharashastri6@gmail.com </h4>
+ E-mail : yashodharashastri6@gmail.com </h4>
