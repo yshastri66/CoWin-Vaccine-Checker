@@ -13,7 +13,7 @@ This python script will help people to overcome this issue by identifying slots 
 <ul>
   <li> Uses Public API provided by <a href="https://apisetu.gov.in/public/api/cowin#/"><b>API Setu</b></a> to get the information regarding health care centers and vaccines with pincode as filter </li>
   <li> Sends request to API with the frequency mentioned by user and checks for vaccine availability at all pincodes for 18+ age group </li>
-  <li> Sends automatic whatsapp message to required person using <a href="https://pypi.org/project/pywhatkit/">PyWhatKit</a> package with pre-defined text to the phone number mentioned during script running </li>
+  <li> Sends automatic whatsapp message to required person using <a href="https://pypi.org/project/pywhatkit/">PyWhatKit</a> package with pre-defined text to the phone number mentioned during script running (Laptop must be connected to whatsapp web)</li>
   <li> Uses <a href="https://pypi.org/project/chime/">chime</a> package to generate sound notification in laptop when it sends the whatsapp message </li>
 </ul>
 
@@ -33,3 +33,16 @@ pip install -r requirements.txt
 python3 cowin_main.py
 ```
 
+<b>Snapshots of the script outputs are below: </b><br>
+<div align='center'>
+  <b>Code snippet running</b><br>
+  <img src="https://github.com/yshastri66/CoWin-Vaccine-Checker/blob/main/images/WhatsApp%20Image%202021-06-27%20at%2010.37.07%20AM.jpeg" alt="terminal"  width="600" height="450"><br>
+  <br><b>Automatic whatsapp web opening and typed text</b>
+  <img src="https://github.com/yshastri66/CoWin-Vaccine-Checker/blob/main/images/WhatsApp%20Image%202021-06-27%20at%2010.37.42%20AM.jpeg" alt="terminal"  width="600" height="450"><br>
+  <br><b>Automatic message sending</b><br>
+  <img src="https://github.com/yshastri66/CoWin-Vaccine-Checker/blob/main/images/WhatsApp%20Image%202021-06-27%20at%2010.34.13%20AM.jpeg" alt="terminal"  width="600" height="450">
+</div><br>
+
+#### Feel free to contact me incase on any quaries :-
+<h4> Yashodhara Shastri G <br>
+ yashodharashastri6@gmail.com </h4>
